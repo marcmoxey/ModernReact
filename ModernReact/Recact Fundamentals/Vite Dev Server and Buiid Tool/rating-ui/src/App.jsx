@@ -4,7 +4,7 @@ const App = () => {
 
   return ( 
   <div>
-   <Rating/>
+   <Rating heading='How do you you feel about React?' feedbackMessages = {['Hate it', 'Dislike it', 'Meh', 'Like it', 'Love it' ]}/>
   </div> );
 }
  
